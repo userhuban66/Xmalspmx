@@ -1,14 +1,13 @@
 {
-  "name": "discord-railway-bot",
+  "name": "render-discord-bot",
   "version": "1.0.0",
-  "description": "Railway üzerinde çalışan Discord botu",
-  "main": "server.js",
+  "description": "Render üzerinde çalışan Discord botu.",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.19.2",
-    "axios": "^1.7.2",
-    "dotenv": "^16.4.5"
+    "axios": "^1.7.2"
   }
 }
