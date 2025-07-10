@@ -5,7 +5,7 @@ const axios = require("axios");
 // Express sunucusunu başlatıyoruz
 const app = express();
 // Render'ın bize verdiği portu veya varsayılan olarak 3000'i kullanıyoruz
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 20000;
 
 app.get("/", (req, res) => {
   res.send("Bot aktif ve Render üzerinde çalışıyor!");
